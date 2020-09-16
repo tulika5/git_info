@@ -1,5 +1,5 @@
 # hello-world
-Created this repository just for learning github.
+Created this repository just for learning git.
 
 GITHUB: code hosting platform for version control and collaboration
 Repository: organize whole project
@@ -33,4 +33,8 @@ git push -u origin master
 git remote add origin https://github.com/tulika5/scalaPractice.git
 git branch -M master
 git push -u origin master
+
+*server: remote repository
+* every user: local repository ; so, u pull changes from remote, make ur changes and push ur code
+so, this is distributed version-control system
 
