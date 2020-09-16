@@ -52,3 +52,32 @@ other similar tech is bitbucket
 ques. . How can you initialize a repository in Git?
 If you want to initialize an empty repository to a directory in Git, you need to enter the git init command. 
 After this command, a hidden .git folder will appear in the folder. 
+
+ques. Explain the git push command.
+The Git push command is used to push the content in a local repository to a remote repository. After a local repository has been modified, a push is executed to share the modifications with remote team members.
+
+ques. Explain the git pull command.
+Git pull is used to fetch and merge changes from the remote repository to the local repository. Git pull is a combination of two commands: git fetch; followed by git merge.
+
+ques.What is a merge conflict in Git?
+A merge conflict is an event that takes place when Git is unable to resolve differences in code between the two commits automatically. 
+Git is able to automatically merge the changes only if the commits are on different lines or branches.
+
+ques. What is the process to revert a commit that has already been pushed and made public?
+There are two processes through which you can revert a commit:
+1. Remove or fix the bad file in a new commit and push it to the remote repository. Then commit it to the remote repository using:
+git commit –m “commit message”
+2. Create a new commit to undo all the changes that were made in the bad commit. Use the following command:
+git revert <commit id>
+  
+ques.  What is Git stash?
+Let’s say you're a developer and you want to switch branches to work on something else. The issue is you don’t want to make commits in uncompleted work, so you just want to get back to this point later. The solution here is the Git stash. 
+Git stash takes your modified tracked files and saves it on a stack of unfinished changes that you can reapply at any time. To go back to the work you can use the stash pop.
+
+ques.What is the difference between git merge and git rebase?
+To incorporate new commits into your feature branch, you use merge
+1.Creates an extra merge commit every time you need to incorporate changes
+2.Pollutes your feature branch history
+As an alternative to merging, you can rebase the feature branch into master.
+1.Incorporates all the new commits in the master branch
+2. Rewrites the project history by creating brand new commits for each commit in the original branch
