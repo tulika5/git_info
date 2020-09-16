@@ -34,7 +34,21 @@ git remote add origin https://github.com/tulika5/scalaPractice.git
 git branch -M master
 git push -u origin master
 
+ques. what is a git repository?
+ans: Git repository refers to a place where all the Git files are stored. These files can either be stored on the local repository or on the remote repository.
 *server: remote repository
 * every user: local repository ; so, u pull changes from remote, make ur changes and push ur code
 so, this is distributed version-control system
 
+ques. what is version control system?
+: 1. record all changes to code so that any previous version can be restored and
+2. all coders get the latest version to work with.
+
+ques. what is diff. between git and github?
+: git is version control system. 
+github is the git repository hosting service.
+other similar tech is bitbucket
+
+ques. . How can you initialize a repository in Git?
+If you want to initialize an empty repository to a directory in Git, you need to enter the git init command. 
+After this command, a hidden .git folder will appear in the folder. 
