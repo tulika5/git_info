@@ -1,6 +1,7 @@
 # hello-world
 Created this repository just for learning git.
 
+**********************HANDY GIT COMMANDS AND QUESTIONS*************************
 GITHUB: code hosting platform for version control and collaboration
 Repository: organize whole project
 created new repository: hello-world
